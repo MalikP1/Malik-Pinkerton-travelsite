@@ -28,3 +28,10 @@ body {
   display: flex;
   background-color: #ffffff;
 }
+.footer {
+  display: flex;
+  background-color: #fefaf5;
+}
+.footer__contact-link {
+  text-decoration: none;
+}
