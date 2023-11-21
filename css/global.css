@@ -5,3 +5,26 @@ body {
   margin: 0;
   padding: 0;
 }
+.top-nav__logo {
+}
+.top-nav__links {
+  align-items: end;
+}
+.top-nav__title-link {
+  text-decoration: none;
+  color: #335576;
+}
+.top-nav__list {
+}
+.top-nav__list-item {
+  list-style-type: none;
+  display: inline-flex;
+}
+.top-nav__link {
+  text-decoration: none;
+  color: #335576;
+}
+.top-nav {
+  display: flex;
+  background-color: #ffffff;
+}
