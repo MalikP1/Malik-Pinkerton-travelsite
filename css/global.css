@@ -27,11 +27,21 @@ body {
 .top-nav {
   display: flex;
   background-color: #ffffff;
+  flex-direction: row;
+  justify-content: space-between;
 }
+
 .footer {
-  display: flex;
+  width: 100%;
+  display: inline-flex;
   background-color: #fefaf5;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 .footer__contact-link {
   text-decoration: none;
+}
+.footer__days-of-the-week {
+  display: flex;
+  justify-content: space-between;
 }
