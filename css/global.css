@@ -52,6 +52,39 @@ body {
 .hero__image {
   width: 90%;
 }
+.cards-container {
+  display: flex;
+  justify-content: center;
+}
+.main__title {
+  padding-left: 4rem;
+}
+.main__card {
+  display: flex;
+  padding: 2rem;
+  margin: 1rem;
+  text-decoration: none;
+  color: #ffffff;
+  width: 20%;
+  height: 20rem;
+}
+.main__card-hawaii {
+  background-image: url("../assets/Images/hawaii.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.main__card-iceland {
+  background-image: url("../assets/Images/iceland.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.main__card-greece {
+  background-image: url("../assets/Images/greece.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.main__card-name {
+}
 .footer {
   width: 100%;
   display: inline-flex;
@@ -64,5 +97,10 @@ body {
 }
 .footer__days-of-the-week {
   display: flex;
-  justify-content: space-between;
+}
+.footer__days-of-the-week-m-f {
+  padding-right: 2rem;
+}
+.footer__days-of-the-week-sun {
+  padding-left: 2rem;
 }
