@@ -1,4 +1,6 @@
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
 }
 body {
@@ -6,9 +8,11 @@ body {
   padding: 0;
 }
 .top-nav__logo {
+  margin-left: 3rem;
 }
 .top-nav__links {
   align-items: end;
+  margin-right: 2rem;
 }
 .top-nav__title-link {
   text-decoration: none;
@@ -19,6 +23,7 @@ body {
 .top-nav__list-item {
   list-style-type: none;
   display: inline-flex;
+  padding: 0.5rem 1rem;
 }
 .top-nav__link {
   text-decoration: none;
@@ -29,6 +34,9 @@ body {
   background-color: #ffffff;
   flex-direction: row;
   justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .footer {
