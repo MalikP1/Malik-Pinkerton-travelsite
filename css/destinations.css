@@ -1,3 +1,4 @@
+/* main section */
 .main {
   width: 100%;
   padding: 2rem;
@@ -16,11 +17,15 @@
 .main__title {
   padding-left: 2rem;
   color: white;
+  font-size: 4rem;
+  margin-bottom: 4rem;
 }
+/* articles */
 .articles {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 5rem;
 }
 .article {
   padding: 0 1em 1rem;
@@ -31,6 +36,9 @@
   border-bottom: 3px solid black;
   padding: 0 3rem;
   text-align: center;
+}
+.article__title-wider {
+  padding: 0 4rem;
 }
 .article__list {
   padding: 0;

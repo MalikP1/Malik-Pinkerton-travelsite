@@ -1,22 +1,26 @@
+/* hero section */
 .hero {
   display: flex;
   background-color: #fefaf5;
   justify-content: space-around;
 }
 .hero__info {
-  width: 35%;
+  width: 40%;
+  margin: 3rem 0 0 1rem;
 }
 .hero__title {
   color: #335576;
+  font-size: 2rem;
 }
 .hero__image-container {
-  width: 30%;
+  width: 40%;
+  margin: 2rem 0 3rem 1rem;
 }
 .hero__image {
   width: 90%;
 }
 .hero__text {
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   color: #335576;
 }
 .hero__button {
@@ -26,6 +30,7 @@
   padding: 1rem 2rem;
   border-radius: 35px;
 }
+/* main section */
 .cards-container {
   display: flex;
   justify-content: center;
