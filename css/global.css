@@ -2,6 +2,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: verdana;
 }
 body {
   margin: 0;
@@ -35,6 +36,12 @@ header {
   text-decoration: none;
   color: #335576;
 }
+.top-nav__link:hover {
+  border-bottom: 3px solid #db7a4e;
+}
+.top-nav__link--active {
+  border-bottom: 3px solid #db7a4e;
+}
 .top-nav {
   display: flex;
   background-color: #ffffff;
@@ -49,11 +56,27 @@ header {
   flex-direction: row;
   justify-content: space-evenly;
 }
+.footer__title {
+  color: #335576;
+}
+.footer__contact-sub-title {
+  color: #db7a4e;
+}
 .footer__contact-link {
   text-decoration: none;
+  color: #335576;
+}
+.footer__hours-title {
+  margin-bottom: 0;
 }
 .footer__days-of-the-week {
   display: flex;
+}
+.footer__days-of-the-week-days {
+  color: #db7a4e;
+}
+.footer__days-of-the-week-time {
+  color: #335576;
 }
 .footer__days-of-the-week-m-f {
   padding-right: 2rem;
@@ -61,7 +84,10 @@ header {
 .footer__days-of-the-week-sun {
   padding-left: 2rem;
 }
+.footer__social {
+}
+
+.footer__images {
+}
 .footer__image {
-  width: 5rem;
-  padding: 0 1rem;
 }
